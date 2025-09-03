@@ -1137,3 +1137,10 @@ h1, h2, h3 {
 .text-shadow-custom {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 639px) {
+  .main-title {
+    font-size: 2.5rem; /* 40px */
+    line-height: 1.2;
+  }
+}
